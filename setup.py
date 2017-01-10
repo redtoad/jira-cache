@@ -12,7 +12,7 @@ setup(
     description='Dump Jira issues to file and reload them without connection to the original server.',
     long_description=read('README.rst'),
     url='https://github.com/redtoad/jira-cache',
-    version='0.8.1',
+    version='0.8.2',
     author='Sebastian Rahlf',
     author_email='basti@redtoad.de',
     packages=['jira_cache'],
