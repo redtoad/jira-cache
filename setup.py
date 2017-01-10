@@ -17,5 +17,19 @@ setup(
     author_email='basti@redtoad.de',
     packages=['jira_cache'],
     requires=['jira'],
-    license='MIT'
+    license='MIT',
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Other Environment',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Information Technology',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+    ],
+    keywords='jira ticket caching json dump'
 )
