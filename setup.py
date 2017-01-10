@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 import os
 
 
@@ -16,7 +16,7 @@ setup(
     author='Sebastian Rahlf',
     author_email='basti@redtoad.de',
     packages=['jira_cache'],
-    requires=['jira'],
+    install_requires=['jira'],
     license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
