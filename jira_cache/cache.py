@@ -6,7 +6,7 @@ from jira.resources import cls_for_resource
 class CachedIssues(list):
 
     def __init__(self, issues, jql=None):
-        super().__init__(issues)
+        list.__init__(self, issues)
 
     def dump(self, fp):
         return json.dump([issue.raw for issue in iter(self)], fp)
