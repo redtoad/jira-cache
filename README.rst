@@ -29,7 +29,7 @@ Installation
 
 Simply run ::
 
-    pip install jira-history
+    pip install jira-cache
 
 Contributing
 ------------
